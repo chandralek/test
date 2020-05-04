@@ -4,7 +4,7 @@ pipeline {
     label 'SLAVE'
   }
 
-  environement {
+  environment {
     NEXUS=credentials('Nexus')
   }
   stages {
